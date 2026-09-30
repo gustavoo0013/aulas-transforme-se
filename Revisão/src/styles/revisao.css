@@ -1,0 +1,13 @@
+body {
+  background-color: purple;
+}
+
+ul {
+  color: white;
+  list-style-type: decimal;
+}
+
+ol {
+  color: white;
+  list-style-type: decimal;
+}
