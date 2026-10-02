@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+}
+
+.pagina {
+  width: 90%;
+  height: 95vh;
+  margin: 3vh auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid black;
+}
+
+/* Cabeçalho */
+header {
+  height: 18%;
+  background-color: #ff1f32;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 5px;
+}
+
+/* Navegação */
+nav {
+  height: 9%;
+  background-color: #10c5d0;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+
+  padding-top: 5px;
+}
+
+/* Área principal */
+main {
+  height: 62%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Coluna esquerda */
+.esquerdo {
+  width: 30%;
+  background-color: green;
+  position: relative;
+  padding-top: 5px;
+}
+
+/* Coluna direita */
+.direito {
+  width: 70%;
+  background-color: yellow;
+  position: relative;
+  padding-top: 5px;
+}
+
+/* Rodapé */
+footer {
+  height: 11%;
+  background-color: #888;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 5px;
+}
