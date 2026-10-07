@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* CABEÇALHO */
+body > header {
+  background-color: brown;
+  border: 3px solid goldenrod;
+  text-align: center;
+  padding: 15px;
+}
+
+/* ÁREA PRINCIPAL */
+main {
+  display: flex;
+  min-height: 450px;
+}
+
+/* LADO ESQUERDO */
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: lightgreen;
+  border: 5px solid #168b8b;
+}
+
+aside section {
+  flex: 1;
+  border-bottom: 5px solid #168b8b;
+  padding: 10px;
+}
+
+aside h2 {
+  font-size: 16px;
+}
+
+/* ARTIGO */
+article {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: grey;
+  padding: 10px;
+}
+
+article > header {
+  background-color: white;
+  padding: 5px;
+}
+
+article > header h1 {
+  background-color: #20c5c5;
+  text-align: center;
+  padding: 12px;
+}
+
+/* SEÇÕES DO ARTICLE */
+article section {
+  flex: 1;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+article section:nth-of-type(1) {
+  background-color: greenyellow;
+}
+
+article section:nth-of-type(2) {
+  background-color: orange;
+}
+
+article section h2 {
+  font-size: 16px;
+}
+
+/* RODAPÉ */
+body > footer {
+  background-color: #10172b;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  height: 100px;
+}
