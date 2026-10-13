@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 80px 40px 300px 40px;
+
+  grid-template-areas:
+    "cabecalho cabecalho"
+    "navegacao navegacao"
+    "esquerdo direito"
+    "rodape rodape";
+}
+
+header {
+  grid-area: cabecalho;
+  background-color: #9b59b6;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  grid-area: navegacao;
+  background-color: #3498db;
+  padding: 10px;
+}
+
+main {
+  grid-area: esquerdo;
+  background-color: #2ecc71;
+  padding: 10px;
+}
+
+aside {
+  grid-area: direito;
+  background-color: #f1c40f;
+  padding: 10px;
+}
+
+footer {
+  grid-area: rodape;
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
