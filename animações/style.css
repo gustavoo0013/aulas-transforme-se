@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 2% auto;
+
+  /*nome da animação*/
+  animation-name: transformar;
+  /*duração da animação*/
+  animation-duration: 4s;
+  /*curva de aceleração da animação*/
+  animation-timing-function: ease-in-out;
+  /*quantas vezes vai ocorrer*/
+  animation-iteration-count: 1;
+  /*estagio final*/
+  animation-fill-mode: forwards;
+
+  animation-direction: reverse;
+}
+
+@keyframes transformar {
+  0% {
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    transform: scale(1.5) rotate(45deg);
+    background-color: yellowgreen;
+  }
+
+  100% {
+    background-color: green;
+    border-radius: 50%;
+  }
+}
