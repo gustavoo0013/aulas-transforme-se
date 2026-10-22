@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+/* DIV CONTÊINER */
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+/* HEADER */
+header {
+  height: 70px;
+  background-color: yellow;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  gap: 10px;
+  min-height: 400px;
+}
+
+/* LADO ESQUERDO */
+aside {
+  width: 30%;
+  background-color: #20c5d0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.esquerda {
+  height: 55%;
+  padding: 5px;
+}
+
+nav {
+  height: 150px;
+  background-color: white;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.publicidade {
+  height: 45%;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* LADO DIREITO */
+.direita {
+  width: 70%;
+  background-color: #075fff;
+  padding: 5px;
+}
+
+article {
+  background-color: white;
+  padding: 5px;
+  height: 95%;
+}
+
+article h2 {
+  background-color: #20c5d0;
+
+  text-align: center;
+  padding: 8px;
+
+  font-size: 26px;
+}
+
+.texto {
+  background-color: #8585b5;
+  height: 90px;
+
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.imagem {
+  background-color: #7515d0;
+  height: 180px;
+
+  margin-top: 5px;
+  padding: 5px;
+}
+
+/* FOOTER */
+footer {
+  height: 45px;
+  background-color: #151b42;
+  color: white;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 5px;
+}
